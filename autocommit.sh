@@ -8,7 +8,8 @@ echo
 echo 
 git commit -m "Updated Master"
 echo ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-echo commit info
+echo 
+echo 
 
 git remote set-url origin git@github.com:slashsite/slashsite.github.io.git
 
