@@ -7,10 +7,9 @@ git init
 git add .
 
 echo 
-echo commiting to master ===============================
+echo commiting to master ==============================================================
 git commit -m "Updated Master"
-echo "                                                  ]"
-echo ===================================================
+echo ==================================================================================
 echo 
 
 echo pulling origin...
