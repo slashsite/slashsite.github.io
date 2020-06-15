@@ -10,7 +10,6 @@ git commit -m "Updated Master"
 echo
 echo ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 echo 
-echo 
 
 echo pulling origin...
 git pull origin
