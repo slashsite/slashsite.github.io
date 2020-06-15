@@ -11,6 +11,7 @@ echo ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 echo 
 echo 
 
+git pull origin
 git remote set-url origin git@github.com:slashsite/slashsite.github.io.git
 
 git push -u origin master
