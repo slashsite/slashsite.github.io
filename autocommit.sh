@@ -5,7 +5,7 @@ git init
 git add .
 
 git commit -m "Updated Master"
-echo ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+echo ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 git remote set-url origin git@github.com:slashsite/slashsite.github.io.git
 
