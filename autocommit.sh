@@ -5,6 +5,7 @@ git init
 git add .
 
 echo 
+echo 
 git commit -m "Updated Master"
 echo ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 echo commit info
