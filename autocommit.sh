@@ -8,7 +8,7 @@ git add .
 
 echo 
 echo commiting to master ==============================
-(git commit -m "Updated Master" && echo "                |") |tr '\n' ''
+(git commit -m "Updated Master" && echo "                |") |tr '\n' ' '
 echo "                                                  |"
 echo ==================================================
 echo 
