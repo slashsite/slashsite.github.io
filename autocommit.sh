@@ -1,3 +1,4 @@
+brew install boxes
 cd desktop/slashsite.github.io
 
 git init
@@ -5,7 +6,7 @@ git init
 git add .
 
 echo 
-echo commiting to master
+echo commiting to master --------------------------------------
 git commit -m "Updated Master"
 echo
 echo ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
