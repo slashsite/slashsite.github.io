@@ -6,3 +6,7 @@
 
 ### Oh and you have to find a way to contact me.
 ##### Good luck ;)
+
+<br/>
+
+[If you want to, you can run into a wall](./siteindex.md)
