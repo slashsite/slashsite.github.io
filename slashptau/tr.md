@@ -1,5 +1,5 @@
 ---
-permalink: /superwibr/PTAU/codes/TR
+permalink: /PTAU/codes/TR
 ---
 # TR codes
 ## The TR codes. Memorize them if you want to be a professional trickster.

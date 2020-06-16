@@ -8,3 +8,4 @@ permalink: /wall
 - [/Aotes](./slashaotes/index.md)
 - [/console](./slashconsole/index.md)
 - [/superwibr](./slashsuperwibr/index.md)
+- [/PTAU](./slashptau/index.md)
