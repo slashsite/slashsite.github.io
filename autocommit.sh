@@ -17,6 +17,6 @@ echo
 git remote set-url origin git@github.com:slashsite/slashsite.github.io.git
 
 echo pushing to master... ===========================================================
-echo VVVVVVVVVVVVVVVVVVVV
+echo 
 git push -u origin master
 echo ================================================================================
