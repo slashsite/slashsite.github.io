@@ -1,5 +1,3 @@
-brew install boxes
-
 cd desktop/slashsite.github.io
 
 git init
