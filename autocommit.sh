@@ -1,4 +1,14 @@
-cd desktop/slashsite.github.io
+#====================================================================================
+# setup section
+
+# location must be set to the path from the user folder (e.g.- desktop/myproject)
+location="desktop/slashsite.github.io"
+
+# the ssh url of your github repository (you will have to have an ssh key set up on your account) (e.g.- git@github.com:myusername/myrepo.git)
+sshurl="git@github.com:slashsite/slashsite.github.io.git"
+#====================================================================================
+
+cd $location
 
 git init
 
@@ -14,8 +24,7 @@ echo pulling origin...
 git pull origin
 echo
 
-git remote set-url origin git@github.com:slashsite/slashsite.github.io.git
-
+git remote set-url origin $sshurl
 echo pushing to master... ===========================================================
 echo 
 git push -u origin master
