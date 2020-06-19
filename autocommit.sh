@@ -25,7 +25,7 @@ git pull origin
 echo
 
 git remote set-url origin $sshurl
-echo pushing to master... ===========================================================
+echo pushing to master ==============================================================
 echo 
 git push -u origin master
 echo ================================================================================
