@@ -25,6 +25,11 @@ button{
     display: inline-block;
 }
 
+code {
+  background-color: ivory;
+  color: chartreuse;
+}
+
 /* classes for different effects */
 .crimsondew{
     font-family: Menlo;
