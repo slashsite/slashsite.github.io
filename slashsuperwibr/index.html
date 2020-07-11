@@ -71,17 +71,13 @@ function openTab(evt, tabName) {
   evt.currentTarget.className += " active";
 }
 </script>
-<script>
-  // Get the element with id="defaultOpen" and click on it
-  document.getElementById("defaultOpen").click();
-</script>
 
 </head>
 
 <body class="body">
 <!-- Tab links -->
 <div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'Home')" id="defaultOpen">Home</button>
+  <button class="tablinks" onclick="openTab(event, 'Home')" style="display:block;">Home</button>
   <button class="tablinks" onclick="openTab(event, 'Paris')">Paris</button>
   <button class="tablinks" onclick="openTab(event, 'Tokyo')">Tokyo</button>
 </div>
