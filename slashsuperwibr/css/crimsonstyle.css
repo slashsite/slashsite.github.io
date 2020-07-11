@@ -1,12 +1,5 @@
+/* putting the body content in a <div> with 1% padding is recommended */
 body {
-    /*text-indent: 1%;*/
-    background-color: crimson;
-    font-family: Menlo;
-    color: honeydew;
-    font-size: x-large;
-}
-.body {
-    /*text-indent: 1%;*/
     background-color: crimson;
     font-family: Menlo;
     color: honeydew;
@@ -19,7 +12,7 @@ a {
 
 input {
     font-family: Menlo;
-    color: black;
+    color: crimson;
     background-color: azure;
 }
 
@@ -32,6 +25,7 @@ button{
     display: inline-block;
 }
 
+/* classes for different effects */
 .crimsondew{
     font-family: Menlo;
     color: crimson;
@@ -58,3 +52,44 @@ button{
     text-decoration: none;
     display: inline-block;
 }
+
+/*
+  classes to make a topnav bar
+  VVVVVVVVVVVVVVVVVVVVVVVVVVVV
+*/
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: darkred;
+    color: honeydew
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+  
+  }
