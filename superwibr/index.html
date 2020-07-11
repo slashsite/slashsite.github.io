@@ -47,20 +47,24 @@ function pre() {
 
 </script>
 
-
 </head>
+
 
 <body class="body">
 <!-- Tab links -->
 <div class="tab" style="display: none;" id="tab">
+  <!-- Right aligned -->
   <button class="tablinks active" onclick="openTab(event, 'Home')">Home</button>
   <button class="tablinks" onclick="openTab(event, 'CSS')">CSS</button>
-  <button class="tablinks" onclick="openTab(event, 'Discord')">Discord</button>
+  <button class="tablinks" onclick="openTab(event, '')"></button>
+
+  <!-- Left aligned -->
+  <button class="tablinks" onclick="openTab(event, 'ControlPannel')" style="float: right;">Control pannel</button>
 </div>
 
 <!-- Pre -->
 <div id="pre" class="tabcontent" style="display:block; padding: 10%;">
-  <button class="crimsonkeys" style="font-size: xx-large; width: 100%; height:100%;" onclick="pre()">Smash me!</button>
+  <button class="crimsonkeys" style="font-size: xx-large; width: 100%; height:100%; padding:50%;" onclick="pre()">Smash me!</button>
 </div>
 
 <!-- Home tab -->
@@ -81,18 +85,16 @@ function pre() {
 </code></pre>
 </div>
 
-<!-- Will remove -->
-<div id="Discord" class="tabcontent">
-  <h1 style="text-align: center;">My discord server. I'm working on a new one at the moment.</h1>
-  <div style="align-content: space-around; padding: 10%;">
-  <widgetbot
-  server="587401113742082054"
-  channel="587421011058622494"
-  width="1000"
-  height="600"
-></widgetbot>
-<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+<!-- empty slot -->
+<div id="" class="tabcontent">
+
 </div>
+
+<!-- Control Pannel -->
+<div id="ControlPannel" class="tabcontent">
+
+
+
 </div>
 
 <!-- Hidden objects -->
