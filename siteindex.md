@@ -7,5 +7,5 @@ permalink: /wall
 
 - [/Aotes](./slashaotes/index.md)
 - [/console](./slashconsole/index.md)
-- [/superwibr](./slashsuperwibr/index.md)
+- [/superwibr](./slashsuperwibr/index.html)
 - [/PTAU](./slashptau/index.md)
