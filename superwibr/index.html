@@ -9,7 +9,7 @@ layout: void
 
 <title>/Superwibr</title>
 
-<link rel="stylesheet" href="../superwibr/css/crimsonstyle.css">
+<link rel="stylesheet" id="stylesheet" href="./css/crimsonstyle.css">
 
 <script>
 // Script taken from W3Shools "CSS tabs" tutorial.
@@ -36,8 +36,17 @@ function openTab(evt, tabName) {
 </script>
 
 <script>
+// Pannel functions
 function pannel_1() {
   document.getElementById('audio').play();
+}
+</script>
+
+<script>
+function changestyle(evt, styleName) {
+  // Find stylesheet
+  const stylesheet = document.getElementById('stylesheet')
+  stylesheet.href = "./css/" + styleName + ".css"
 }
 </script>
 
