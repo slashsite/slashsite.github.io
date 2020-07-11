@@ -36,16 +36,31 @@ function openTab(evt, tabName) {
 }
 </script>
 
+<script>
+
+function pre(){
+
+  document.getElementById('tab').style.display = "block";
+  document.getElementById('Home').style.display = "block";
+}
+
+</script>
+
+
 </head>
 
 <body class="body">
 <!-- Tab links -->
-<div class="tab">
+<div class="tab" style="display: none;">
   <button class="tablinks active" onclick="openTab(event, 'Home')">Home</button>
   <button class="tablinks" onclick="openTab(event, 'CSS')">CSS</button>
   <button class="tablinks" onclick="openTab(event, 'Tokyo')"></button>
 </div>
 
+<div id="pre" class="tabcontent" style="display:block;">
+<h1>press the button. This verifies you are not an automated scraping task.</h1><br/>
+<button class="tablinks active" onclick="pre()">Smash me!</button>
+</div>
       
 <div id="Home" class="tabcontent" style="display:block;">
 
@@ -65,13 +80,11 @@ function openTab(evt, tabName) {
 &lt;link rel="stylesheet" type="text/css" href="https://slshsite.github.io/superwibr/css/crimsonstyle.css" /&gt;
 </code></pre>
 
-
 </div>
 
-
-<div id="footer" style="position: absolute 100 50;">
-  <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1047548084/size=large/bgcol=333333/linkcol=e32c14/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://mittsies.bandcamp.com/album/helltaker-soundtrack">Helltaker Soundtrack by Mittsies</a></iframe>
+<div id="hidden" style="display: none;">
 </div>
+
 </body>
 
 </html>
