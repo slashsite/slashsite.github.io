@@ -45,8 +45,8 @@ function pannel_1() {
 <script>
 function changestyle(evt, styleName) {
   // Find stylesheet
-  const stylesheet = document.getElementById('stylesheet')
-  stylesheet.href = "./css/" + styleName + ".css"
+  const stylesheet = document.getElementById('stylesheet');
+  stylesheet.href = "./css/" + styleName + ".css";
 }
 </script>
 
@@ -86,12 +86,17 @@ function changestyle(evt, styleName) {
 <pre><code style="color: darkcyan; font-size:large;">
 &lt;link rel="stylesheet" type="text/css" href="https://slshsite.github.io/superwibr/css/crimsonstyle.css" /&gt;
 </code></pre>
+<button onclick="changestyle(event, 'crimsonstyle')">Set as page style</button>
+
 <br/>
 <br/>
+
 <p>Future style 1.0 - the Plural Player style.</p>
 <pre><code style="color: darkcyan; font-size:large;">
   &lt;link rel="stylesheet" type="text/css" href="https://slshsite.github.io/superwibr/css/futurestyle.css" /&gt;
 </code></pre>
+<button onclick="changestyle(event, 'futurestyle')">Set as page style</button>
+
 </div>
 
 <!-- empty slot -->
