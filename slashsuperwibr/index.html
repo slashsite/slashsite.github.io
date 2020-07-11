@@ -43,6 +43,7 @@ layout: crimson
 </style>
 
 <script>
+// Script taken from W3Shools "CSS tabs" tutorial.
 function openTab(evt, tabName) {
   // Declare all variables
   var i, tabcontent, tablinks;
@@ -69,19 +70,20 @@ function openTab(evt, tabName) {
 <body class="body">
 <!-- Tab links -->
 <div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'Home')">Home</button>
+  <button class="tablinks active" onclick="openTab(event, 'Home')">Home</button>
   <button class="tablinks" onclick="openTab(event, 'Paris')">Paris</button>
   <button class="tablinks" onclick="openTab(event, 'Tokyo')">Tokyo</button>
 </div>
 
       
-<div>
+<div id="Home">
 
 <h1>/Superwibr</h1>
 <h3>Some weird cyborg guy that does somewhat interesting stuff.</h3>
 <br/>
 
 </div>
+
 </body>
 
 </html>
