@@ -39,6 +39,7 @@ function openTab(evt, tabName) {
 <script>
 
 function pre() {
+  document.getElementById('audio').play();
   document.getElementById('tab').style.display = "block";
   document.getElementById('Home').style.display = "block";
   document.getElementById('pre').style.display = "none";
@@ -83,6 +84,10 @@ function pre() {
 </div>
 
 <div id="hidden" style="display: none;">
+  <audio loop id="audio">
+    <source src="./audio/KARLSON_trailer_OST.mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+  </audio>
 </div>
 
 </body>
