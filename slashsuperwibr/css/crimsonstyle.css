@@ -5,6 +5,13 @@ body {
     color: honeydew;
     font-size: x-large;
 }
+.body {
+    /*text-indent: 1%;*/
+    background-color: crimson;
+    font-family: Menlo;
+    color: honeydew;
+    font-size: x-large;
+}
 
 a {
     color: azure;
