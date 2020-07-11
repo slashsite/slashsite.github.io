@@ -39,10 +39,13 @@ function openTab(evt, tabName) {
 <script>
 
 function pre() {
-  document.getElementById('audio').play();
   document.getElementById('tab').style.display = "block";
   document.getElementById('Home').style.display = "block";
   document.getElementById('pre').style.display = "none";
+}
+
+function pannel_1() {
+  document.getElementById('audio').play();
 }
 
 </script>
@@ -97,7 +100,7 @@ function pre() {
 
 <!-- Control Pannel -->
 <div id="ControlPannel" class="tabcontent" style="padding:3%;">
-<button class="tabcontent" style="font-size: xx-large; text-align: center; width: 100%;" ></button>
+<button class="tabcontent" style="font-size: xx-large; text-align: center; width: 100%;"onclick="pannel_1()">Play epic music</button>
 
 
 </div>
