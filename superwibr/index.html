@@ -50,6 +50,17 @@ function changestyle(evt, styleName) {
 }
 </script>
 
+<style>
+  a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+</style>
+
 </head>
 <!--
               void
@@ -64,7 +75,7 @@ function changestyle(evt, styleName) {
   <!-- Left aligned -->
   <button class="tablinks active" onclick="openTab(event, 'Home')" href="#home">Home</button>
   <button class="tablinks" onclick="openTab(event, 'CSS')" href="#css">CSS</button>
-  <a class="tablinks" href="./passwordcoma.html">Password Coma</a>
+  <a class="tablinks button" href="./passwordcoma.html">Password Coma</a>
 
   <!-- Right aligned -->
   <button class="tablinks" onclick="openTab(event, 'ControlPannel')" href="#cntrlpannel" style="float: right;">Control pannel</button>
