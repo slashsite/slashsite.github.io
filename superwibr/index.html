@@ -75,7 +75,7 @@ function changestyle(evt, styleName) {
   <!-- Left aligned -->
   <button class="tablinks active" onclick="openTab(event, 'Home')" href="#home">Home</button>
   <button class="tablinks" onclick="openTab(event, 'CSS')" href="#css">CSS</button>
-  <a class="tablinks button" href="./passwordcoma.html">Password Coma</a>
+  <button class="tablinks" onclick="openTab(event, 'Leaf')">Leaf PWA</button>
 
   <!-- Right aligned -->
   <button class="tablinks" onclick="openTab(event, 'ControlPannel')" href="#cntrlpannel" style="float: right;">Control pannel</button>
@@ -102,20 +102,27 @@ function changestyle(evt, styleName) {
 <br/>
 <br/>
 
-<p>Future style 1.0 - the Plural Player style.</p>
+<p>Future style 1.1 - the Plural Player style.</p>
 <pre><code style="color: darkcyan; font-size:large;">
   &lt;link rel="stylesheet" type="text/css" href="https://slashsite.github.io/superwibr/css/futurestyle.css" /&gt;
 </code></pre>
 <button onclick="changestyle(event, 'futurestyle')">Try it</button>
 
+<br/>
+<br/>
+
+<p>Leaf style 1.0 - very green indeed.</p>
+<pre><code style="color: darkcyan; font-size:large;">
+  &lt;link rel="stylesheet" type="text/css" href="https://slashsite.github.io/superwibr/css/leafstyle.css" /&gt;
+</code></pre>
+<button onclick="changestyle(event, 'leafstyle')">Try it</button>
 </div>
 
-<!-- Password Coma exchange system -->
-<div id="PasswordComa" class="tabcontent">
-
-</ul>
-  
-
+<!-- Leaf -->
+<div id="Leaf" class="tabcontent">
+<h1>Leaf</h1>
+<p>A PWA that does stuff</p>
+<button onclick="leaf()">Install</button>
 </div>
 
 <!-- Control Pannel -->
