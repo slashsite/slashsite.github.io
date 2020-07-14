@@ -9,7 +9,7 @@ layout: void
 
 <title>Leaf</title>
 
-<link rel="stylesheet" href="./css/leafstyle.css">
+<link rel="stylesheet" href="../css/leafstyle.css">
 <style>
 /* Center Image */
 .center {
@@ -19,6 +19,13 @@ layout: void
   width: 20%;
 }
 </style>
+
+<script>
+function start(){
+  window.location="./leaf.html"
+}
+</script>
+
 </head>
 <!--
               void
@@ -29,11 +36,13 @@ layout: void
 -->
 <body>
 
-<div style="padding:1%; text-align:center;">
+<div style="padding:1%; text-align:center;" id="intropage">
+
 <h1 style="font-size: 5vw;" class="fadetop">Leaf</h1>
 <br/>
-<img src="./images/leaf.png" alt="[leaf icon couldn't load :/]" class="center leafwiggle">
+<img src="../images/leaf.png" alt="[leaf icon couldn't load :/]" class="center leafwiggle">
 <br/>
+<button style="font-size: 2vw; border: 0.1vw solid green" onclick="start()">Start</button>
 
 </div>
 

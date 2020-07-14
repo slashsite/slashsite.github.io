@@ -51,6 +51,27 @@ code {
   }
 }
 
+.fadebottom {
+  animation: fadebottom 2s;
+  -moz-animation: fadebottom 2s; /* Firefox */
+  -webkit-animation: fadebottom 2s; /* Safari and Chrome */
+  -o-animation: fadebottom 2s; /* Opera */
+}
+
+@keyframes fadebottom {
+  0%{
+    transform: translateY(2em);
+    opacity: 0%;
+  }
+  65%{
+    transform: translateY(-0.1em)
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+
+/* the leaf wiggle animation was made for the asset "leaf.png" (slashsite.github.io/superwibr/images/leaf.png)*/
 .leafwiggle{
   animation: wiggle 3s;
   -moz-animation: wiggle 3s; /* Firefox */
@@ -65,7 +86,7 @@ code {
     transform: skewY(0deg) skewX(0deg);
   }
   3%{
-    transform: skewY(1deg) skewX(1deg);
+    transform: skewY(3deg) skewX(3deg);
   }
   8%{
     transform:  rotate(10deg);
@@ -74,7 +95,7 @@ code {
     transform:  rotate(0deg);
   }
   33%{
-    transform: skewY(1deg) skewX(-1deg);
+    transform: skewY(2deg) skewX(-2deg);
   }
   50%{
     transform: skew(0deg) rotate(0deg);
