@@ -32,16 +32,19 @@ code {
 /* Intro Animations */
 
 .easefadetop {
-  animation: top 1s ease-in;
+  animation: top 2s;
+  -moz-animation: top 2s; /* Firefox */
+  -webkit-animation: top 2s; /* Safari and Chrome */
+  -o-animation: top 2s; /* Opera */
 }
 
 @keyframes top {
   0%{
-    transform: translateX(-100px);
-    /*opacity: 0%;*/
+    transform: translateY(-2em);
+    opacity: 0%;
   }
   100%{
-    /*opacity: 100%;*/
+    opacity: 100%;
   }
 }
 
