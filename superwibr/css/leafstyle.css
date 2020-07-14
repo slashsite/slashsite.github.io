@@ -29,22 +29,58 @@ code {
   background-color: ivory;
 }
 
-/* Intro Animations */
+/* Animations */
 
-.easefadetop {
-  animation: top 2s;
-  -moz-animation: top 2s; /* Firefox */
-  -webkit-animation: top 2s; /* Safari and Chrome */
-  -o-animation: top 2s; /* Opera */
+.fadetop {
+  animation: fadetop 2s;
+  -moz-animation: fadetop 2s; /* Firefox */
+  -webkit-animation: fadetop 2s; /* Safari and Chrome */
+  -o-animation: fadetop 2s; /* Opera */
 }
 
-@keyframes top {
+@keyframes fadetop {
   0%{
     transform: translateY(-2em);
     opacity: 0%;
   }
+  65%{
+    transform: translateY(0.1em)
+  }
   100%{
     opacity: 100%;
+  }
+}
+
+.leafwiggle{
+  animation: wiggle 3s;
+  -moz-animation: wiggle 3s; /* Firefox */
+  -webkit-animation: wiggle 3s; /* Safari and Chrome */
+  -o-animation: wiggle 3s; /* Opera */
+  animation-iteration-count:infinite;
+  animation-delay: 1s;
+}
+
+@keyframes wiggle{
+  0%{
+    transform: skewY(0deg) skewX(0deg);
+  }
+  3%{
+    transform: skewY(1deg) skewX(1deg);
+  }
+  8%{
+    transform:  rotate(10deg);
+  }
+  16%{
+    transform:  rotate(0deg);
+  }
+  33%{
+    transform: skewY(1deg) skewX(-1deg);
+  }
+  50%{
+    transform: skew(0deg) rotate(0deg);
+  }
+  100%{
+    transform: skew(0deg) rotate(0deg);
   }
 }
 
