@@ -37,11 +37,11 @@ code {
 
 @keyframes top {
   0%{
-    transform: translateZ(+100px);
-    opacity: 0%;
+    transform: translateZ(-100px);
+    /*opacity: 0%;*/
   }
   100%{
-    opacity: 100%;
+    /*opacity: 100%;*/
   }
 }
 
