@@ -29,6 +29,23 @@ code {
   background-color: ivory;
 }
 
+/* Intro Animations */
+
+.easefadetop {
+  animation: top 1s ease-in;
+}
+
+@keyframes top {
+  0%{
+    transform: translateY(100);
+    opacity: 0%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+
+
 /*
   classes to make a topnav bar
   VVVVVVVVVVVVVVVVVVVVVVVVVVVV
