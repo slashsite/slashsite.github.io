@@ -75,7 +75,7 @@ function changestyle(evt, styleName) {
   <!-- Left aligned -->
   <button class="tablinks active" onclick="openTab(event, 'Home')" href="#home">Home</button>
   <button class="tablinks" onclick="openTab(event, 'CSS')" href="#css">CSS</button>
-  <button class="tablinks" onclick="openTab(event, 'Leaf')">Leaf PWA</button>
+  <button class="tablinks" onclick="openTab(event, 'JS')">JS</button>
 
   <!-- Right aligned -->
   <button class="tablinks" onclick="openTab(event, 'ControlPannel')" href="#cntrlpannel" style="float: right;">Control pannel</button>
@@ -118,11 +118,17 @@ function changestyle(evt, styleName) {
 <button onclick="changestyle(event, 'leafstyle')">Try it</button>
 </div>
 
-<!-- Leaf -->
-<div id="Leaf" class="tabcontent">
-<h1>Leaf</h1>
-<p>A PWA that does stuff</p>
-<button onclick="leaf()">Install</button>
+<!-- JS tab -->
+<div id="JS" class="tabcontent">
+<h1>Superwibr JS</h1>
+<h3>JS script for usage in your HTML</h3>
+<br/>
+<p>Tabs.js - simple css tab manager script.</p><br/>
+<pre><code style="color: darkcyan; font-size:large;">
+  &lt;script type="text/javascript" src="https://slashsite.github.io/superwibr/js/tabs.js" /&gt;
+</code></pre>
+
+
 </div>
 
 <!-- Control Pannel -->
