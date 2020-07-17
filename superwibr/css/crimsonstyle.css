@@ -22,7 +22,7 @@ button {
     color: crimson;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
 }
 
 code {
@@ -36,7 +36,7 @@ code {
     background-color: honeydew;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
 }
 
 .crimsonzure{
@@ -45,7 +45,7 @@ code {
     background-color: azure;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
 }
 
 .crimsonkeys{
